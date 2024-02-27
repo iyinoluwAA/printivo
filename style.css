@@ -1,0 +1,81 @@
+/* Top navbar */
+#collapsibleNavId1{
+border: 2px solid red;
+background-color: #F7F6F4;
+}
+.help{
+    font-size: 12px;
+}
+.fots{
+    font-size: 5px;
+}
+#butnig{
+    border: 2px solid #CBCAC8;
+    width: 100px;
+    transform: translate(0,-1px);
+    height: 40px;
+    font-size: 12px;
+}
+#collapsibleNavId{
+    font-size: 12px;
+}
+/* navigation bar */
+#firstlist{
+    color: #8891A4;
+    font-size: 14px;
+    font-weight: 500;
+}
+#links{
+    color: #8891A4;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 9px;
+}
+#links1{
+    margin-top: 7px;
+}
+
+#intro{
+    background-image: url(assests/val-banner_bk99je.png);
+    background-size: cover;
+}
+#net1{
+    color: red;
+    font-size: 30px ;
+}
+/* #net2{
+    color: #708097;
+} */
+#div1{
+    margin-left: -50px;
+}
+/* cards section */
+#popularproducts img{
+    width: 237px;
+}
+#im2{
+    height: 155px;
+}
+.caimg{
+    overflow: hidden;
+}
+
+.caimg:hover img{
+    transform: scale(1.1);
+}
+
+.btnimg img{
+    position: relative;
+    left: 5px;
+}
+.btnimg:hover img{
+    animation: joshua 1s linear forwards !important;
+}
+@keyframes joshua{
+    0%{
+        transform:translate(0px)
+    }
+    100%{
+        transform:translate(10px)
+    }
+}
